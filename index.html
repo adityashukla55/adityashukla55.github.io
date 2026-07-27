@@ -1,200 +1,360 @@
 <!DOCTYPE html>
-<html lang="en">
+
+<html lang="en" class="scroll-smooth">
 
 <head>
   <meta charset="UTF-8" />
-  <title>Aditya Shukla - Resume</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Aditya Shukla — personal website with experience, projects and CV." />
+  <title> &#128075; Aditya Shukla</title>
+
   <script src="https://cdn.tailwindcss.com"></script>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
-  <style>
-    body { font-family: 'Inter', sans-serif; }
-  </style>
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-RC3GZ8BEG4"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-RC3GZ8BEG4');
+  </script>
+
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ["Inter", "ui-sans-serif", "system-ui", "sans-serif"],
+          },
+        },
+      },
+    };
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
 </head>
 
-<body class="bg-[#eef1f6] p-8">
-  <div class="relative mx-auto max-w-[1000px] grid grid-cols-[280px_1fr] bg-white rounded-[14px] overflow-hidden shadow-[0_12px_32px_rgba(0,0,0,0.12)]">
-    
-    <a class="absolute top-5 right-6 bg-[#1e3a8a] hover:bg-[#3b82f6] text-white px-3.5 py-2 rounded-lg text-[13px] font-semibold flex items-center gap-1.5 shadow-md transition-all duration-200 hover:-translate-y-0.5 z-10" 
-       href="https://adityashukla55.github.io/Aditya-Shukla-Resume.pdf" download>
-      <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24">
-        <path d="M12 16l4-5h-3V4h-2v7H8l4 5zm-7 2v2h14v-2H5z"/>
-      </svg>
-      Download CV
-    </a>
-
-    <aside class="bg-gradient-to-b from-[#1e3a8a] to-[#3b82f6] text-white p-8 px-[26px]">
-      <div class="text-[26px] font-bold mb-1">Aditya Shukla</div>
-      <div class="text-[14px] opacity-90 mb-8">Full‑Stack Web Developer</div>
-
-      <div class="mb-6">
-        <h3 class="text-[13px] tracking-[0.12em] uppercase mb-4 opacity-90 font-bold">Contact</h3>
-        <div class="space-y-2">
-            <p class="text-[13px] opacity-95">Berlin, Germany</p>
-            <p class="text-[13px] opacity-95">Email: <a href="mailto:adi.shukla41@gmail.com" class="text-[#93c5fd] hover:underline">adi.shukla41@gmail.com</a></p>
-            <p class="text-[13px] opacity-95">LinkedIn: <a href="https://www.linkedin.com/in/aditya-shukla-0755a97b" class="text-[#93c5fd] hover:underline">Profile</a></p>
-            <p class="text-[13px] opacity-95">GitHub: <a href="https://github.com/adityashukla55" class="text-[#93c5fd] hover:underline">adityashukla55</a></p>
-        </div>
-      </div>
-
-      <div class="mb-6">
-        <h3 class="text-[13px] tracking-[0.12em] uppercase mb-4 opacity-90 font-bold">Core Skills</h3>
-
-        <div class="mt-4 mb-2 text-[13px] font-medium uppercase opacity-90">Frontend</div>
-        <div class="flex flex-wrap gap-2">
-          <span class="cursor-default bg-white/20 px-2 py-1 rounded-md text-[12px] transition-all duration-150 hover:-translate-y-0.5 hover:scale-[1.03] hover:bg-white/35 hover:shadow-md">Html5</span>
-          <span class="cursor-default bg-white/20 px-2 py-1 rounded-md text-[12px] transition-all duration-150 hover:-translate-y-0.5 hover:scale-[1.03] hover:bg-white/35 hover:shadow-md">CSS3</span>
-          <span class="cursor-default bg-white/20 px-2 py-1 rounded-md text-[12px] transition-all duration-150 hover:-translate-y-0.5 hover:scale-[1.03] hover:bg-white/35 hover:shadow-md">React</span>
-          <span class="cursor-default bg-white/20 px-2 py-1 rounded-md text-[12px] transition-all duration-150 hover:-translate-y-0.5 hover:scale-[1.03] hover:bg-white/35 hover:shadow-md">Bootstrap</span>
-          <span class="cursor-default bg-white/20 px-2 py-1 rounded-md text-[12px] transition-all duration-150 hover:-translate-y-0.5 hover:scale-[1.03] hover:bg-white/35 hover:shadow-md">jQuery</span>
-          <span class="cursor-default bg-white/20 px-2 py-1 rounded-md text-[12px] transition-all duration-150 hover:-translate-y-0.5 hover:scale-[1.03] hover:bg-white/35 hover:shadow-md">Inertia.js</span>
-          <span class="cursor-default bg-white/20 px-2 py-1 rounded-md text-[12px] transition-all duration-150 hover:-translate-y-0.5 hover:scale-[1.03] hover:bg-white/35 hover:shadow-md">Livewire</span>
-          <span class="cursor-default bg-white/20 px-2 py-1 rounded-md text-[12px] transition-all duration-150 hover:-translate-y-0.5 hover:scale-[1.03] hover:bg-white/35 hover:shadow-md">JavaScript</span>
-          <span class="cursor-default bg-white/20 px-2 py-1 rounded-md text-[12px] transition-all duration-150 hover:-translate-y-0.5 hover:scale-[1.03] hover:bg-white/35 hover:shadow-md">TypeScript</span>
-          <span class="cursor-default bg-white/20 px-2 py-1 rounded-md text-[12px] transition-all duration-150 hover:-translate-y-0.5 hover:scale-[1.03] hover:bg-white/35 hover:shadow-md">Tailwind</span>
-          <span class="cursor-default bg-white/20 px-2 py-1 rounded-md text-[12px] transition-all duration-150 hover:-translate-y-0.5 hover:scale-[1.03] hover:bg-white/35 hover:shadow-md">Vite</span>
-          <span class="cursor-default bg-white/20 px-2 py-1 rounded-md text-[12px] transition-all duration-150 hover:-translate-y-0.5 hover:scale-[1.03] hover:bg-white/35 hover:shadow-md">Storybook</span>
-        </div>
-
-        <div class="mt-5 mb-2 text-[13px] font-medium uppercase opacity-90">Backend</div>
-        <div class="flex flex-wrap gap-2">
-          <span class="cursor-default bg-white/20 px-2 py-1 rounded-md text-[12px] transition-all duration-150 hover:-translate-y-0.5 hover:scale-[1.03] hover:bg-white/35 hover:shadow-md">PHP</span>
-          <span class="cursor-default bg-white/20 px-2 py-1 rounded-md text-[12px] transition-all duration-150 hover:-translate-y-0.5 hover:scale-[1.03] hover:bg-white/35 hover:shadow-md">Laravel</span>
-          <span class="cursor-default bg-white/20 px-2 py-1 rounded-md text-[12px] transition-all duration-150 hover:-translate-y-0.5 hover:scale-[1.03] hover:bg-white/35 hover:shadow-md">Node JS</span>
-          <span class="cursor-default bg-white/20 px-2 py-1 rounded-md text-[12px] transition-all duration-150 hover:-translate-y-0.5 hover:scale-[1.03] hover:bg-white/35 hover:shadow-md">MySQL</span>
-          <span class="cursor-default bg-white/20 px-2 py-1 rounded-md text-[12px] transition-all duration-150 hover:-translate-y-0.5 hover:scale-[1.03] hover:bg-white/35 hover:shadow-md">PostgreSQL</span>
-          <span class="cursor-default bg-white/20 px-2 py-1 rounded-md text-[12px] transition-all duration-150 hover:-translate-y-0.5 hover:scale-[1.03] hover:bg-white/35 hover:shadow-md">REST APIs</span>
-        </div>
-
-        <div class="mt-5 mb-2 text-[13px] font-medium uppercase opacity-90">DevOps & Tools</div>
-        <div class="flex flex-wrap gap-2">
-          <span class="cursor-default bg-white/20 px-2 py-1 rounded-md text-[12px] transition-all duration-150 hover:-translate-y-0.5 hover:scale-[1.03] hover:bg-white/35 hover:shadow-md">Docker</span>
-          <span class="cursor-default bg-white/20 px-2 py-1 rounded-md text-[12px] transition-all duration-150 hover:-translate-y-0.5 hover:scale-[1.03] hover:bg-white/35 hover:shadow-md">Jenkins</span>
-          <span class="cursor-default bg-white/20 px-2 py-1 rounded-md text-[12px] transition-all duration-150 hover:-translate-y-0.5 hover:scale-[1.03] hover:bg-white/35 hover:shadow-md">Nginx</span>
-          <span class="cursor-default bg-white/20 px-2 py-1 rounded-md text-[12px] transition-all duration-150 hover:-translate-y-0.5 hover:scale-[1.03] hover:bg-white/35 hover:shadow-md">CI/CD</span>
-          <span class="cursor-default bg-white/20 px-2 py-1 rounded-md text-[12px] transition-all duration-150 hover:-translate-y-0.5 hover:scale-[1.03] hover:bg-white/35 hover:shadow-md">Git</span>
-        </div>
-        
-        <div class="mt-5 mb-2 text-[13px] font-medium uppercase opacity-90">Testing & Other</div>
-        <div class="flex flex-wrap gap-2">
-          <span class="cursor-default bg-white/20 px-2 py-1 rounded-md text-[12px] transition-all duration-150 hover:-translate-y-0.5 hover:scale-[1.03] hover:bg-white/35 hover:shadow-md">Linux/Bash</span>
-          <span class="cursor-default bg-white/20 px-2 py-1 rounded-md text-[12px] transition-all duration-150 hover:-translate-y-0.5 hover:scale-[1.03] hover:bg-white/35 hover:shadow-md">PHPUnit</span>
-          <span class="cursor-default bg-white/20 px-2 py-1 rounded-md text-[12px] transition-all duration-150 hover:-translate-y-0.5 hover:scale-[1.03] hover:bg-white/35 hover:shadow-md">Jest</span>
-          <span class="cursor-default bg-white/20 px-2 py-1 rounded-md text-[12px] transition-all duration-150 hover:-translate-y-0.5 hover:scale-[1.03] hover:bg-white/35 hover:shadow-md">Playwright</span>
-          <span class="cursor-default bg-white/20 px-2 py-1 rounded-md text-[12px] transition-all duration-150 hover:-translate-y-0.5 hover:scale-[1.03] hover:bg-white/35 hover:shadow-md">Agile/Scrum</span>
-        </div>
-      </div>
-
-      <div class="mb-6">
-        <h3 class="text-[13px] tracking-[0.12em] uppercase mb-4 opacity-90 font-bold">Education</h3>
-        <div class="space-y-5">
-            <p class="text-[13px] leading-snug"><strong>M.Sc. Web Engineering (2020)</strong><br><span class="opacity-90">TU Chemnitz, Germany</span></p>
-            <p class="text-[13px] leading-snug"><strong>B.E. Information Technology (2017)</strong><br><span class="opacity-90">Silver Oak College, India</span></p>
-        </div>
-      </div>
-
-      <div>
-        <h3 class="text-[13px] tracking-[0.12em] uppercase mb-4 opacity-90 font-bold">Languages</h3>
-        <div class="space-y-2">
-            <p class="text-[13px] opacity-95">English — Fluent</p>
-            <p class="text-[13px] opacity-95">German — Advanced</p>
-            <p class="text-[13px] opacity-95">Hindi — Native</p>
-            <p class="text-[13px] opacity-95">Gujarati — Native</p>
-        </div>
-      </div>
-    </aside>
-
-    <main class="p-9 px-[36px]">
-      <section class="mb-4">
-        <h2 class="text-[18px] font-bold text-[#1e3a8a] mb-3 border-l-4 border-[#3b82f6] pl-2.5 uppercase tracking-wide">Professional Summary</h2>
-        <p class="text-[13px] leading-relaxed text-[#444]">
-          Full‑stack Web Developer with 6+ years of experience building scalable applications using React, Laravel,
-          MySQL, and modern frontend tooling. Strong expertise in UI component systems, REST API development,
-          performance optimization, and CI/CD automation. Proven ability to deliver production‑ready features in agile
-          teams.
-        </p>
-      </section>
-
-      <section class="mb-8">
-        <h2 class="text-[18px] font-bold text-[#1e3a8a] mb-5 border-l-4 border-[#3b82f6] pl-2.5 uppercase tracking-wide">Experience</h2>
-
-        <div class="mb-4 p-5 bg-[#f9fafb] border-l-4 border-[#3b82f6] rounded-r-lg shadow-sm">
-          <div class="flex justify-between items-start">
-            <div>
-                <div class="text-[15px] font-bold text-[#111]">Full‑Stack Developer</div>
-                <div class="text-[13px] text-[#555] font-medium">Crew United — Berlin, Germany</div>
-            </div>
-            <div class="text-[12px] text-[#3b82f6] font-bold">Apr 2023 – Present</div>
+<body class="bg-white text-zinc-900 antialiased">
+  <main class="mx-auto mt-8 w-full max-w-[1280px] px-6 pb-16 lg:px-8">
+    <div class="grid gap-8 lg:grid-cols-[240px_1fr] lg:gap-12">
+      <!-- Left sidebar -->
+      <aside class="lg:sticky lg:top-16 lg:h-[calc(100vh-4rem)]">
+        <div class="space-y-4">
+          <h4 class="text-2xl font-semibold tracking-tight sm:text-4xl">
+            Aditya Shukla
+          </h4>
+          <div class="space-y-1">
+            <p class="text-xl text-zinc-600">Web/Cloud/AI Engineer</p>
           </div>
-          <ul class="ml-4 mt-3 list-disc marker:text-[#3b82f6] space-y-2">
-            <li class="text-[13px] leading-relaxed text-[#333]">Built 3+ production React applications used by thousands for managing video/audio workflows.</li>
-            <li class="text-[13px] leading-relaxed text-[#333]">Developed an internal React UI component library, improving development speed and consistency.</li>
-            <li class="text-[13px] leading-relaxed text-[#333]">Designed Laravel APIs and integrated CI/CD pipelines using Jenkins.</li>
-            <li class="text-[13px] leading-relaxed text-[#333]">Improved frontend performance through code splitting, caching, and optimized API usage.</li>
-          </ul>
-        </div>
 
-        <div class="mb-4 p-5 bg-[#f9fafb] border-l-4 border-[#3b82f6] rounded-r-lg shadow-sm">
-          <div class="flex justify-between items-start">
-            <div>
-                <div class="text-[15px] font-bold text-[#111]">Backend Developer</div>
-                <div class="text-[13px] text-[#555] font-medium">Persch Consult GmbH — Berlin, Germany</div>
-            </div>
-            <div class="text-[12px] text-[#3b82f6] font-bold">Aug 2022 – Jan 2023</div>
+          <div class="flex gap-2">
+            <a href="https://github.com/adityashukla55" target="_blank" rel="noreferrer"
+              class="inline-flex h-9 w-9 items-center justify-center rounded-full border border-zinc-300 hover:bg-zinc-50"
+              aria-label="GitHub">
+              <img src="https://github.com/favicon.ico" alt="GitHub" class="h-5 w-5" />
+            </a>
+            <a href="https://www.linkedin.com/in/aditya-shukla-0755a97b" target="_blank" rel="noreferrer"
+              class="inline-flex h-9 w-9 items-center justify-center rounded-full border border-zinc-300 hover:bg-zinc-50"
+              aria-label="LinkedIn">
+              <img src="https://www.linkedin.com/favicon.ico" alt="LinkedIn" class="h-5 w-5" />
+            </a>
           </div>
-          <ul class="ml-4 mt-3 list-disc marker:text-[#3b82f6] space-y-2">
-            <li class="text-[13px] leading-relaxed text-[#333]">Enhanced backend performance by optimizing Laravel queries and API endpoints.</li>
-            <li class="text-[13px] leading-relaxed text-[#333]">Implemented route‑planning features using Google Maps API.</li>
-          </ul>
-        </div>
 
-        <div class="mb-4 p-5 bg-[#f9fafb] border-l-4 border-[#3b82f6] rounded-r-lg shadow-sm">
-          <div class="flex justify-between items-start">
-            <div>
-                <div class="text-[15px] font-bold text-[#111]">Full‑Stack Developer</div>
-                <div class="text-[13px] text-[#555] font-medium">Tritomit UG — Berlin, Germany</div>
+          <div class="space-y-2 border-t border-zinc-200 pt-3 text-sm text-zinc-700">
+            <div class="flex items-center gap-2">
+              <img src="https://cdn.jsdelivr.net/npm/simple-icons@9/icons/gmail.svg" alt="Email" class="h-4 w-4" />
+              <a href="mailto:adi.shukla41@gmail.com" class="hover:underline">adi.shukla41@gmail.com</a>
             </div>
-            <div class="text-[12px] text-[#3b82f6] font-bold">Aug 2020 – Jul 2022</div>
+            <div class="flex items-center gap-2">
+              <img src="https://cdn.jsdelivr.net/npm/simple-icons@9/icons/googlemaps.svg" alt="Location"
+                class="h-4 w-4" />
+              <span>Berlin, Germany</span>
+            </div>
+            <div class="flex items-center gap-2">
+              <img src="https://cdn.jsdelivr.net/npm/simple-icons@9/icons/googletranslate.svg" alt="Language"
+                class="h-4 w-4" />
+              <span>English, German, Hindi, Gujarati</span>
+            </div>
           </div>
-          <ul class="ml-4 mt-3 list-disc marker:text-[#3b82f6] space-y-2">
-            <li class="text-[13px] leading-relaxed text-[#333]">Built a full web application from scratch using React + Laravel.</li>
-            <li class="text-[13px] leading-relaxed text-[#333]">Designed database schema, backend APIs, and frontend UI components.</li>
-            <li class="text-[13px] leading-relaxed text-[#333]">Deployed Docker‑based applications on IONOS servers.</li>
-          </ul>
         </div>
-      </section>
+      </aside>
 
+      <!-- Right content -->
       <section>
-        <h2 class="text-[18px] font-bold text-[#1e3a8a] mb-5 border-l-4 border-[#3b82f6] pl-2.5 uppercase tracking-wide">Projects & Internships</h2>
-
-        <div class="mb-4 p-5 bg-[#f9fafb] border-l-4 border-[#3b82f6] rounded-r-lg shadow-sm">
-          <div class="flex justify-between items-start">
-            <div>
-                <div class="text-[15px] font-bold text-[#111]">Web Developer (Intern & Thesis)</div>
-                <div class="text-[13px] text-[#555] font-medium">Infineon Technologies AG — Munich, Germany</div>
-            </div>
-            <div class="text-[12px] text-[#3b82f6] font-bold">Oct 2019 – Jul 2020</div>
+        <div class="max-w-3xl">
+          <div class="space-y-2 text-[17px] leading-8 text-zinc-800">
+            <p>
+              Hi! I’m a software engineer working on web applications, research, and product systems.
+              I enjoy building useful tools, clean interfaces, and scalable backend services.
+            </p>
+            <p>
+              I’m interested in AI, web development, cloud infrastructure, and anything that helps people
+              build better software faster.
+            </p>
           </div>
-          <ul class="ml-4 mt-3 list-disc marker:text-[#3b82f6] space-y-2">
-            <li class="text-[13px] leading-relaxed text-[#333]">Developed a .NET‑based application for uploading files and managing lecture scripts.</li>
-            <li class="text-[13px] leading-relaxed text-[#333]">Built a semantic‑web‑based application to search and retrieve linked academic data.</li>
-          </ul>
         </div>
 
-        <div class="mb-4 p-5 bg-[#f9fafb] border-l-4 border-[#3b82f6] rounded-r-lg shadow-sm">
-          <div class="flex justify-between items-start">
-            <div>
-                <div class="text-[15px] font-bold text-[#111]">Web Developer (Intern)</div>
-                <div class="text-[13px] text-[#555] font-medium">Amaze Infosoft — Ahmedabad, India</div>
+        <div class="mt-6 space-y-8">
+          <section>
+            <h3 class="text-xl font-medium">Certifications</h3>
+            <div class="relative mt-2">
+              <div class="overflow-x-auto">
+                <div class="grid w-[140%] grid-cols-5 gap-4 sm:w-[90%] lg:w-[80%]">
+                  <a href="https://www.credly.com/badges/bcc0acdf-06e0-423e-a03d-061bbb34a221/public_url"
+                    target="_blank" rel="noreferrer">
+                    <img src="aws-certified-cloud-practitioner.png" alt="AWS Certified Cloud Practitioner badge"
+                      class="h-26 w-26" />
+                  </a>
+                  <a href="https://www.credly.com/badges/ad2e7c11-b8e2-4880-9c53-78b19c3fce4d/public_url"
+                    target="_blank" rel="noreferrer">
+                    <img src="aws-certified-ai-practitioner.png" alt="AWS Certified AI Practitioner badge"
+                      class="h-26 w-26" />
+                  </a>
+                </div>
+              </div>
             </div>
-            <div class="text-[12px] text-[#3b82f6] font-bold">Jan 2017 – Mar 2018</div>
-          </div>
-          <ul class="ml-4 mt-3 list-disc marker:text-[#3b82f6] space-y-2">
-            <li class="text-[13px] leading-relaxed text-[#333]">Created an e‑commerce website using HTML, CSS, JavaScript, and PHP.</li>
-            <li class="text-[13px] leading-relaxed text-[#333]">Implemented product listings, cart functionality, and admin features.</li>
-          </ul>
+          </section>
+
+          <section>
+            <h3 class="text-xl font-medium">Experience</h3>
+            <div class="mt-2 space-y-6">
+              <article class="grid gap-3 sm:grid-cols-[110px_1fr] sm:gap-6">
+                <div class="text-sm text-zinc-500">Apr 2023–Present</div>
+                <div class="space-y-2">
+                  <h4 class="text-lg font-semibold tracking-tight">Web/Cloud Engineer</h4>
+                  <p class="text-zinc-700"><a href="https://www.crew-united.com/" target="_blank" rel="noreferrer">Crew
+                      United - Munich, Germany</a></p>
+                  <p class="leading-7 text-zinc-800">
+                    Use AWS services to build scalable and secure cloud infrastructure for web applications.
+                    <br> Developed React UI component library to improve development speed.
+                    <br> Designed Laravel APIs and integrated CI/CD pipelines using Jenkins.
+                    <br> Built 3+ production React applications used by thousands for managing video/audio workflows.
+                  </p>
+                  <div class="mt-2 flex flex-wrap gap-2">
+                    <span
+                      class="rounded-md border border-zinc-300 bg-zinc-100 px-2.5 py-1 text-[11px] font-semibold uppercase tracking-wide text-zinc-700">AWS</span>
+                    <span
+                      class="rounded-md border border-zinc-300 bg-zinc-100 px-2.5 py-1 text-[11px] font-semibold uppercase tracking-wide text-zinc-700">Terraform</span>
+                    <span
+                      class="rounded-md border border-zinc-300 bg-zinc-100 px-2.5 py-1 text-[11px] font-semibold uppercase tracking-wide text-zinc-700">React/Vite</span>
+                    <span
+                      class="rounded-md border border-zinc-300 bg-zinc-100 px-2.5 py-1 text-[11px] font-semibold uppercase tracking-wide text-zinc-700">TypeScript</span>
+                    <span
+                      class="rounded-md border border-zinc-300 bg-zinc-100 px-2.5 py-1 text-[11px] font-semibold uppercase tracking-wide text-zinc-700">Bootstrap</span>
+                    <span
+                      class="rounded-md border border-zinc-300 bg-zinc-100 px-2.5 py-1 text-[11px] font-semibold uppercase tracking-wide text-zinc-700">jQuery</span>
+                    <span
+                      class="rounded-md border border-zinc-300 bg-zinc-100 px-2.5 py-1 text-[11px] font-semibold uppercase tracking-wide text-zinc-700">Storybook</span>
+                    <span
+                      class="rounded-md border border-zinc-300 bg-zinc-100 px-2.5 py-1 text-[11px] font-semibold uppercase tracking-wide text-zinc-700">Laravel/MySQL</span>
+                    <span
+                      class="rounded-md border border-zinc-300 bg-zinc-100 px-2.5 py-1 text-[11px] font-semibold uppercase tracking-wide text-zinc-700">Jenkins</span>
+                    <span
+                      class="rounded-md border border-zinc-300 bg-zinc-100 px-2.5 py-1 text-[11px] font-semibold uppercase tracking-wide text-zinc-700">REST
+                      APIs</span>
+                  </div>
+                </div>
+              </article>
+
+              <article class="grid gap-3 sm:grid-cols-[110px_1fr] sm:gap-6">
+                <div class="text-sm text-zinc-500">Aug 2022 – March 2023</div>
+                <div class="space-y-2">
+                  <h4 class="text-lg font-semibold tracking-tight">Web Developer</h4>
+                  <p class="text-zinc-700"><a href="https://www.perschconsult.de/" target="_blank"
+                      rel="noreferrer">Persch Consult GmbH - Berlin, Germany</a></p>
+                  <p class="leading-7 text-zinc-800">
+                    Enhanced backend performance by optimizing Laravel queries and API endpoints.
+                    Implemented route‑planning features using Google Maps API.
+                  </p>
+                  <div class="mt-2 flex flex-wrap gap-2">
+                    <span
+                      class="rounded-md border border-zinc-300 bg-zinc-100 px-2.5 py-1 text-[11px] font-semibold uppercase tracking-wide text-zinc-700">Python/Django</span>
+                    <span
+                      class="rounded-md border border-zinc-300 bg-zinc-100 px-2.5 py-1 text-[11px] font-semibold uppercase tracking-wide text-zinc-700">Laravel</span>
+                    <span
+                      class="rounded-md border border-zinc-300 bg-zinc-100 px-2.5 py-1 text-[11px] font-semibold uppercase tracking-wide text-zinc-700">React/Vue</span>
+                    <span
+                      class="rounded-md border border-zinc-300 bg-zinc-100 px-2.5 py-1 text-[11px] font-semibold uppercase tracking-wide text-zinc-700">React
+                      Native</span>
+                    <span
+                      class="rounded-md border border-zinc-300 bg-zinc-100 px-2.5 py-1 text-[11px] font-semibold uppercase tracking-wide text-zinc-700">Google
+                      Maps API</span>
+                    <span
+                      class="rounded-md border border-zinc-300 bg-zinc-100 px-2.5 py-1 text-[11px] font-semibold uppercase tracking-wide text-zinc-700">
+                      Open Street Map</span>
+                    <span
+                      class="rounded-md border border-zinc-300 bg-zinc-100 px-2.5 py-1 text-[11px] font-semibold uppercase tracking-wide text-zinc-700">
+                      Bootstap/jQuery</span>
+                  </div>
+                </div>
+              </article>
+
+              <article class="grid gap-3 sm:grid-cols-[110px_1fr] sm:gap-6">
+                <div class="text-sm text-zinc-500">Aug 2020 – Jul 2022</div>
+                <div class="space-y-2">
+                  <h4 class="text-lg font-semibold tracking-tight">Full‑Stack Developer / Server Administrator</h4>
+                  <p class="text-zinc-700">Tritomit UG — Berlin, Germany</p>
+                  <p class="leading-7 text-zinc-800">
+                    Built a full web application from scratch using React + Laravel.
+                    Designed database schema, backend APIs, and frontend UI components.
+                    Deployed Docker‑based applications on IONOS servers.
+                  </p>
+                  <div class="mt-2 flex flex-wrap gap-2">
+                    <span
+                      class="rounded-md border border-zinc-300 bg-zinc-100 px-2.5 py-1 text-[11px] font-semibold uppercase tracking-wide text-zinc-700">React</span>
+                    <span
+                      class="rounded-md border border-zinc-300 bg-zinc-100 px-2.5 py-1 text-[11px] font-semibold uppercase tracking-wide text-zinc-700">Node</span>
+                    <span
+                      class="rounded-md border border-zinc-300 bg-zinc-100 px-2.5 py-1 text-[11px] font-semibold uppercase tracking-wide text-zinc-700">Laravel</span>
+                    <span
+                      class="rounded-md border border-zinc-300 bg-zinc-100 px-2.5 py-1 text-[11px] font-semibold uppercase tracking-wide text-zinc-700">MySQL</span>
+                    <span
+                      class="rounded-md border border-zinc-300 bg-zinc-100 px-2.5 py-1 text-[11px] font-semibold uppercase tracking-wide text-zinc-700">Docker</span>
+                    <span
+                      class="rounded-md border border-zinc-300 bg-zinc-100 px-2.5 py-1 text-[11px] font-semibold uppercase tracking-wide text-zinc-700">Linux</span>
+                  </div>
+                </div>
+              </article>
+            </div>
+          </section>
+
+          <section>
+            <h3 class="text-xl font-medium">Education</h3>
+            <div class="mt-4 space-y-8">
+              <article class="grid gap-3 sm:grid-cols-[110px_1fr] sm:gap-6">
+                <div class="text-sm text-zinc-500">2020</div>
+                <div class="space-y-2">
+                  <h4 class="text-lg font-semibold tracking-tight">
+                    <a href="https://www.credly.com/badges/1f82da42-18c3-4587-93a0-109a1995269e/public_url"
+                      target="_blank" rel="noreferrer" class="hover:underline">M.Sc. Web Engineering</a>
+                  </h4>
+                  <p class="leading-7 text-zinc-800">
+                    TU Chemnitz, Germany
+                  </p>
+                </div>
+              </article>
+
+              <article class="grid gap-3 sm:grid-cols-[110px_1fr] sm:gap-6">
+                <div class="text-sm text-zinc-500">2017</div>
+                <div class="space-y-2">
+                  <h4 class="text-lg font-semibold tracking-tight">B.E. Information Technology (2017)</h4>
+                  <p class="leading-7 text-zinc-800">
+                    Silver Oak College, India
+                  </p>
+                </div>
+              </article>
+            </div>
+          </section>
+
+          <section>
+            <h3 class="text-xl font-medium">Internships</h3>
+            <div class="mt-4 space-y-8">
+              <article class="grid gap-3 sm:grid-cols-[110px_1fr] sm:gap-6">
+                <div class="text-sm text-zinc-500">Oct 2019 – Jul 2020</div>
+                <div class="space-y-2">
+                  <h4 class="text-lg font-semibold tracking-tight">Web Engineer</h4>
+                  <p class="text-zinc-700"><a href="https://www.infineon.com/" target="_blank" rel="noreferrer">Infineon
+                      Technologies - Munich, Germany</a></p>
+                  <p class="leading-7 text-zinc-800">
+                    Developed a .NET‑based application for uploading files and managing lecture scripts.
+                    Built a semantic‑web‑based application to search and retrieve linked academic data.
+                  </p>
+                  <div class="mt-2 flex flex-wrap gap-2">
+                    <span
+                      class="rounded-md border border-zinc-300 bg-zinc-100 px-2.5 py-1 text-[11px] font-semibold uppercase tracking-wide text-zinc-700">.NET</span>
+                    <span
+                      class="rounded-md border border-zinc-300 bg-zinc-100 px-2.5 py-1 text-[11px] font-semibold uppercase tracking-wide text-zinc-700">C#</span>
+                    <span
+                      class="rounded-md border border-zinc-300 bg-zinc-100 px-2.5 py-1 text-[11px] font-semibold uppercase tracking-wide text-zinc-700">Semantic
+                      Web</span>
+                    <span
+                      class="rounded-md border border-zinc-300 bg-zinc-100 px-2.5 py-1 text-[11px] font-semibold uppercase tracking-wide text-zinc-700">Data
+                      Integration</span>
+                  </div>
+                </div>
+              </article>
+
+              <article class="grid gap-3 sm:grid-cols-[110px_1fr] sm:gap-6">
+                <div class="text-sm text-zinc-500">Jan 2017 – Mar 2018</div>
+                <div class="space-y-2">
+                  <h4 class="text-lg font-semibold tracking-tight">Software Developer</h4>
+                  <p class="text-zinc-700">Amaze Infosoft - Ahmedabad, India</p>
+                  <p class="leading-7 text-zinc-800">
+                    Created an e‑commerce website using HTML, CSS, JavaScript, and PHP.
+                    Implemented product listings, cart functionality, and admin features.
+                  </p>
+                  <div class="mt-2 flex flex-wrap gap-2">
+                    <span
+                      class="rounded-md border border-zinc-300 bg-zinc-100 px-2.5 py-1 text-[11px] font-semibold uppercase tracking-wide text-zinc-700">HTML</span>
+                    <span
+                      class="rounded-md border border-zinc-300 bg-zinc-100 px-2.5 py-1 text-[11px] font-semibold uppercase tracking-wide text-zinc-700">CSS</span>
+                    <span
+                      class="rounded-md border border-zinc-300 bg-zinc-100 px-2.5 py-1 text-[11px] font-semibold uppercase tracking-wide text-zinc-700">JavaScript</span>
+                    <span
+                      class="rounded-md border border-zinc-300 bg-zinc-100 px-2.5 py-1 text-[11px] font-semibold uppercase tracking-wide text-zinc-700">PHP</span>
+                    <span
+                      class="rounded-md border border-zinc-300 bg-zinc-100 px-2.5 py-1 text-[11px] font-semibold uppercase tracking-wide text-zinc-700">MySQL</span>
+                  </div>
+                </div>
+              </article>
+            </div>
+          </section>
+
+          <section>
+            <h3 class="text-xl font-medium">Projects</h3>
+            <div class="mt-5 grid gap-3 sm:grid-cols-2">
+              <div class="rounded-md border border-zinc-200 bg-white p-3 shadow-sm">
+                <div class="flex items-center justify-between gap-2">
+                  <div class="flex items-center gap-2">
+                    <svg viewBox="0 0 12 16" class="h-4 w-4 text-zinc-700" fill="currentColor"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <path fill-rule="evenodd"
+                        d="M4 9H3V8h1v1zm0-3H3v1h1V6zm0-2H3v1h1V4zm0-2H3v1h1V2zm8-1v12c0 .55-.45 1-1 1H6v2l-1.5-1.5L3 16v-2H1c-.55 0-1-.45-1-1V1c0-.55.45-1 1-1h10c.55 0 1 .45 1 1zm-1 10H1v2h2v-1h3v1h5v-2zm0-10H2v9h9V1z">
+                      </path>
+                    </svg>
+                    <a href="https://github.com/adityashukla55/University-Project" target="_blank" rel="noreferrer"
+                      class="text-sm font-medium text-zinc-800 hover:underline">
+                      adityashukla55/<span class="font-semibold">University-Project</span>
+                    </a>
+                  </div>
+                  <div class="flex items-center gap-2 text-xs text-zinc-500">
+                    <span class="flex items-center gap-1">
+                      <svg viewBox="0 0 1024 1024" class="h-3.5 w-3.5" fill="currentColor"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          d="M908.1 353.1l-253.9-36.9L540.7 86.1c-3.1-6.3-8.2-11.4-14.5-14.5-15.8-7.8-35-1.3-42.9 14.5L369.8 316.2l-253.9 36.9c-7 1-13.4 4.3-18.3 9.3a32.05 32.05 0 0 0 .6 45.3l183.7 179.1-43.4 252.9a31.95 31.95 0 0 0 46.4 33.7L512 754l227.1 119.4c6.2 3.3 13.4 4.4 20.3 3.2 17.4-3 29.1-19.5 26.1-36.9l-43.4-252.9 183.7-179.1c5-4.9 8.3-11.3 9.3-18.3 2.7-17.5-9.5-33.7-27-36.3z">
+                        </path>
+                      </svg>
+                      0
+                    </span>
+                    <span class="flex items-center gap-1">
+                      <svg viewBox="0 0 16 16" class="h-3.5 w-3.5" fill="currentColor"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          d="M14 4a2 2 0 1 0-2.47 1.94V7a.48.48 0 0 1-.27.44L8.49 8.88l-2.76-1.4A.49.49 0 0 1 5.46 7V5.94a2 2 0 1 0-1 0V7a1.51 1.51 0 0 0 .82 1.34L8 9.74v1.32a2 2 0 1 0 1 0V9.74l2.7-1.36A1.49 1.49 0 0 0 12.52 7V5.92A2 2 0 0 0 14 4zM4 4a1 1 0 1 1 2 0 1 1 0 0 1-2 0zm5.47 9a1 1 0 1 1-2 0 1 1 0 0 1 2 0zM12 5a1 1 0 1 1 0-2 1 1 0 0 1 0 2z">
+                        </path>
+                      </svg>
+                      0
+                    </span>
+                  </div>
+                </div>
+                <p class="mt-3 text-sm leading-6 text-zinc-600">Admin and Student Portal for adding and managing academic records, creating, links, digital platforms</p>
+                <div class="mt-3 flex flex-wrap items-center gap-2 text-xs text-zinc-500">
+                  <span class="rounded-full border border-zinc-200 px-2 py-1">Php- Laravel</span>
+                  <span class="rounded-full border border-zinc-200 px-2 py-1">Bootstrap</span>
+                </div>
+              </div>
+            </div>
+          </section>
         </div>
       </section>
-    </main>
-  </div>
+    </div>
+
+  </main>
 </body>
+
 </html>
