@@ -1,2 +1,2 @@
 # adityashukla.github.io
-Github Project
+Resume
